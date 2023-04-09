@@ -31,7 +31,7 @@ const startWasiTask = async () => {
     }
   });
 
-  const response = await fetch("testWeb.wasm");
+  const response = await fetch("WebAppWeb.wasm");
   const importObject = {
     wasi_snapshot_preview1: wasi.wasiImport,
     javascript_kit: swift.importObjects(),

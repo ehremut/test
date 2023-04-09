@@ -1,4 +1,4 @@
-public class test {
+public class WebApp {
     public init() {}
 
     public func greeting() -> String {

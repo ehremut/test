@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "WebApp",
   "dependencies": {
     "@wasmer/wasi": "^0.9.1",
     "@wasmer/wasmfs": "^0.9.1",

@@ -1,9 +1,9 @@
 import XCTest
-@testable import test
+@testable import WebApp
 
-class testTests: XCTestCase {
+class WebAppTests: XCTestCase {
     func testGreeting() {
-        let app = test()
+        let app = WebApp()
         XCTAssertEqual(app.greeting(), "Hello, world")
     }
 }
